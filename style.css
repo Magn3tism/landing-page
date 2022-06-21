@@ -42,7 +42,7 @@ main {
 .description {
   flex-flow: column wrap;
   flex-grow: 0;
-  width: 400px;
+  width: 450px;
   padding: 10px;
 }
 
@@ -50,28 +50,65 @@ main {
   color: #f9faf8;
   font-size: 48px;
   font-weight: 900;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 .subtext {
   color: #e5e7eb;
   font-size: 18px;
-  margin-bottom: 8px;
-}
-
-.placeholder {
-  width: 400px;
-  height: 200px;
-  background-color: gray;;
+  margin-bottom: 18px;
 }
 
 .sign-up {
   color: #f9faf8;
   background-color: #3882f6;
   border: none;
-  padding: 7px 30px;
+  padding: 10px 30px;
   font-size: 15px;
   font-weight: 700;
+  border-radius: 10%;
+}
+
+.placeholder {
+  width: 470px;
+  height: 200px;
+  background-color: gray;;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info span {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  margin: 30px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-flow: column wrap;
+  width: 150px;
+  flex-grow: 0;
+  text-align: center;
+  color: #1f2937;
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+  border: 3px solid #3882f6;
+  margin: 10px;
   border-radius: 10%;
 }
 
