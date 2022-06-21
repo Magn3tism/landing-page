@@ -68,7 +68,7 @@ main {
   padding: 10px 30px;
   font-size: 15px;
   font-weight: 700;
-  border-radius: 10%;
+  border-radius: 10px;
 }
 
 .placeholder {
@@ -139,6 +139,32 @@ main {
   color: #1f2937;
   font-size: 20px;
   font-weight: 900;
+}
+
+.action {
+  height: 150px;
+  width: 70%;
+  background-color: #3882f6;
+  margin: 100px auto;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.action-head {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.action-text {
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.border {
+  border: 3px solid #e5e7eb;
 }
 
 footer {
